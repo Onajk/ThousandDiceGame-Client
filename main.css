@@ -37,7 +37,7 @@ body {
     padding: 10px;
     background: #303030;
     height: 300px;
-    width: 1000px;
+    width: 750px;
     border: 1px solid #a7a7a7;
     overflow: auto;
     border-radius: 4px;
@@ -45,18 +45,20 @@ body {
 }
 
 #gameInfo {
-    display: table;
-    width: 100%;
+  text-align: center;
 }
 
 #playersScore {
-    display: table-cell;
-    width: 40%;
+  margin-left: 75px;
+  margin-right: 50px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #currentPlayer {
-    display: table-cell;
-    width: 40%;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 h1, h2 {
